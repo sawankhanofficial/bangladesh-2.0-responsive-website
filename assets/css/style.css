@@ -223,6 +223,99 @@ nav .nav-link{
 
 
 
+/* Quote Section Design */
+
+.quote-content {
+    border:0.0625rem solid rgba(14, 14, 14, 0.15);
+    border-radius:1rem;
+    background: rgba(255, 255, 255, 1);
+    padding:1.8rem;
+}
+.quote-text-item{
+    background-image:url(../image/quote-bg.png);
+    background-position:left top;
+    background-repeat: no-repeat;
+    padding:0.7rem;
+}
+.quotation-para{
+    color: rgba(14, 14, 14, 0.8);
+    font-size:0.9rem;
+    font-weight: 400;
+    line-height:1.5rem;
+    margin-bottom:0.75rem;
+    text-align: justify;
+}
+.quote-text-item h5{
+   color: rgba(14, 14, 14, 0.8);
+    font-size:1rem;
+    font-weight: 600;
+    line-height:1.5rem;
+}
+.quote-text-item h6{
+    color: rgba(14, 14, 14, 0.6);
+    font-size:0.9rem;
+    font-weight: 400;
+    line-height:1.5rem;
+}
+
+
+
+/* Opinion Section Design */
+
+.opinion-content{
+    border-radius:1rem;
+    background: rgba(255, 255, 255, 0.945);
+    margin-top:1.5rem;
+}
+.opinion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.0625rem solid rgba(14, 14, 14, 0.15);
+    background: rgba(198, 228, 214, 1);
+}
+.opinion-header h5{
+    color: rgba(14, 14, 14, 1);
+    font-size:1rem;
+    font-weight: 600;
+    line-height:1.5rem;
+    padding:1rem;
+}
+.opinion-data{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 0.0625rem solid rgba(14, 14, 14, 0.15);
+}
+.opinion-description{
+    width:80%;
+    padding:1.5rem;
+    border-right:0.0625rem solid rgba(14, 14, 14, 0.568);
+}
+.opinion-description p{
+    color: rgba(14, 14, 14, 1);
+    font-size:1rem;
+    font-weight: 500;
+    line-height:1.2rem;
+}
+.opinion-button{
+    margin: auto;
+}
+.opinion-button select{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+    padding:12px;
+
+    color: rgba(14, 14, 14, 1);
+    font-size:0.9rem;
+    font-weight: 500;
+    line-height:1.2rem;
+}
+
+
+
 
 
 
@@ -261,7 +354,15 @@ nav .nav-link{
 
     .vision-content{
     flex-direction: column;
-}
+    }
+
+    .opinion-description{
+        width: 68%;
+        padding:1rem;
+    }
+    .opinion-description p{
+        font-size: 0.9rem;
+    }
 }
 
 

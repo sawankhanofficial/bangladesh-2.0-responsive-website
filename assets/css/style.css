@@ -156,7 +156,69 @@ nav .nav-link{
 
 
 
+/* Vision Section Design */
+.vision-content{
+    margin-top:1.58rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:1.5rem;
+}
+.vision-box{
+    padding:1.2rem;
+    width:100%;
 
+}
+.vision-description{
+    margin-top:1rem;
+    line-height:1.5rem;
+}
+.vision-box:nth-child(1){
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-btn-1{
+    margin-top:1.5rem;
+    background-color: rgba(84, 144, 245, 1);
+    border:0.125rem solid rgba(84, 144, 245, 1);
+    color:#ffffff;
+    transition:0.3s;
+}
+.vision-btn-1:hover{
+    background:transparent;
+    color:rgba(84, 144, 245, 1);
+}
+
+.vision-box:nth-child(2){
+    border-radius: 16px;
+    background: rgba(198, 228, 214, 1);
+}
+.vision-btn-2{
+    margin-top:1.5rem;
+    background-color: rgba(9, 161, 92, 1);
+    border:0.125rem solid rgba(9, 161, 92, 1);
+    color:#ffffff;
+    transition:0.3s;
+}
+.vision-btn-2:hover{
+    background:transparent;
+    color:rgba(9, 161, 92, 1);
+}
+.vision-box:nth-child(3){
+    border-radius: 16px;
+    background: rgba(247, 235, 207, 1);
+}
+.vision-btn-3{
+    margin-top:1.5rem;
+    background-color: rgba(255, 194, 57, 1);
+    border:0.125rem solid rgba(255, 194, 57, 1);
+    color:#ffffff;
+    transition:0.3s;
+}
+.vision-btn-3:hover{
+    background:transparent;
+    color:rgba(255, 194, 57, 1);
+}
 
 
 
@@ -188,12 +250,18 @@ nav .nav-link{
         width:100%;
     }
 
+
     .headline{
     font-size:1.5rem;
     }
     .pillars-content{
     grid-template-columns:repeat(1, 1fr);
     }
+
+
+    .vision-content{
+    flex-direction: column;
+}
 }
 
 

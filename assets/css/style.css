@@ -28,7 +28,16 @@ body{
     cursor:pointer;
 }
 
-
+section{
+    margin:4rem 0rem;
+}
+.headline{
+    color: rgba(14, 14, 14, 1);
+    font-size:1.975rem;
+    font-weight: 700;
+    line-height:2.37rem;
+    letter-spacing:0.0625rem;
+}
 
 
 
@@ -115,6 +124,34 @@ nav .nav-link{
 
 
 
+/* Pillars Section Design */
+
+.pillars-content{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:1.185rem;
+    margin-top:1.58rem;
+}
+.pillars-box{
+    box-sizing: border-box;
+    border: 0.0625rem solid rgba(14, 14, 14, 0.15);
+    border-radius:1rem;
+    background: rgba(255, 255, 255, 1);
+    padding:1.185rem;
+}
+.box-subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-size:1rem;
+    font-weight: 700;
+    line-height:1.185rem;
+    margin:0.75rem 0rem;
+}
+.box-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size:0.875rem;
+    font-weight: 400;
+    line-height:1.185rem;
+}
 
 
 
@@ -150,6 +187,13 @@ nav .nav-link{
     .hero-content img{
         width:100%;
     }
+
+    .headline{
+    font-size:1.5rem;
+    }
+    .pillars-content{
+    grid-template-columns:repeat(1, 1fr);
+    }
 }
 
 
@@ -170,5 +214,12 @@ nav .nav-link{
     }
     .hero-content img{
         width:100%;
+    }
+
+    .pillars-content{
+    grid-template-columns:repeat(2, 1fr);
+    }
+    .headline{
+    font-size:1.7rem;
     }
 }

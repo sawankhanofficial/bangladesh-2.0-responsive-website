@@ -317,6 +317,107 @@ nav .nav-link{
 
 
 
+/* News Section Design */
+.news-content{
+    margin-top:2rem;
+}
+.news-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1.5rem;
+}
+.news-item img{
+    border-radius:0.625rem;
+}
+.news-title{
+    color: #252525;
+    font-size:1.58rem;
+    margin-bottom:0.625rem;
+}
+.news-logo{
+    width:auto;
+    margin-bottom:0.625rem;
+}
+.news-subtitle{
+    color:#0e0e0ec5;
+    margin-bottom:0.625rem;
+    font-weight: 400;
+    font-size:0.9rem;
+}
+.news-description{
+    line-height:1.5rem;
+    margin-bottom:1.5rem;
+    font-size:0.9rem;
+}
+.news-item-2{
+    flex-direction:row-reverse;
+    margin:3rem 0rem;
+}
+.news-btn{
+    background-color:rgba(0, 106, 80, 1);
+    color:#ffffff;
+}
+.news-btn:hover{
+    background-color: transparent;
+    color:rgba(0, 106, 80, 1);
+}
+
+
+
+
+/* Donate Section Design */
+.donate-title{
+    text-align: center;
+}
+.donate-description{
+    text-align: center;
+}
+.donate-box-item{
+    margin-top:2rem;
+    display: grid;
+    grid-template-columns:repeat(4, 10rem);
+    justify-content: center;
+    gap:2rem;
+}
+.donate-box{
+    height:6rem;
+    border:0.0625rem solid #d1d0d0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0.3125rem;
+}
+.donate-box:hover{
+    background-color:#C6E4D6;
+}
+.donate-box p{
+    color:#0E0E0E;
+    font-size:1.5rem;
+}
+.donate-full-btn{
+    width:65%;
+    margin:1.5rem auto;
+    text-align: center;
+    padding:1rem;
+    border:0.0625rem solid #e2e1e1;
+}
+.donate-full-btn small{
+    color:#0e0e0e70;
+}
+.donate-btn{
+    margin:2rem auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*=======================
@@ -362,6 +463,14 @@ nav .nav-link{
     }
     .opinion-description p{
         font-size: 0.9rem;
+    }
+
+    .news-item{
+        flex-direction:column;
+        text-align: left;
+    }
+    .donate-box-item{
+        grid-template-columns:repeat(1, 300px);
     }
 }
 

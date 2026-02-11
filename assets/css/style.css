@@ -413,6 +413,35 @@ nav .nav-link{
 
 
 
+/* Newsletter section design */
+.newsletter-content{
+    background-color: #C6E4D6;
+    padding:5rem 6rem;
+    border-radius:0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.newsletter-text-item{
+    text-align: center;
+}
+.newsletter-description{
+    margin:1rem 0rem;
+}
+.btn-group{
+    display:flex;
+    justify-content: center;
+}
+input{
+    padding:0.8rem;
+    border:0.0625rem solid #c5c4c4;
+}
+.news-small-para{
+    margin-top:1.5rem;
+    text-align: center;
+    color: #0e0e0e9c;
+}
+
 
 
 

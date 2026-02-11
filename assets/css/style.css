@@ -444,6 +444,40 @@ input{
 
 
 
+/* Footer Section  */
+footer{
+    margin-bottom:2rem;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.social-icon{
+    margin-top: 1.5rem;
+}
+.social-icon i{
+    font-size:1.5rem;
+    margin-right:1rem;
+}
+.social-icon i:last-child{
+    margin-right:0rem;
+}
+.social-icon i:nth-child(1){
+    color:royalblue;
+}
+.social-icon i:nth-child(2){
+    color:red;
+}
+.social-icon i:nth-child(4){
+    color:dodgerblue;
+}
+.social-icon i:nth-child(5){
+    color:rgb(223, 0, 0);
+}
+
+
 
 
 
